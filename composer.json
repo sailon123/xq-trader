@@ -1,0 +1,18 @@
+{
+    "name": "sailon123/xq-trader",
+    "description": "trader for xueqiu",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require_dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "XqTrader\\": "src/XqTrader",
+            "Tests\\": "tests"
+        }
+    }
+}
